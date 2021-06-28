@@ -1,4 +1,4 @@
 # Configure the panos provider
-provider "panos" {
+provider "paloaltonetworks/panos" {
     hostname = "107.22.242.195"
 }
