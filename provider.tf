@@ -1,4 +1,13 @@
 # Configure the panos provider
-provider "paloaltonetworks/panos" {
+terraform {
+  required_providers {
+    panos = {
+      source  = "paloaltonetworks/panos"
+    }
+  }
+}
+
+
+provider "panos" {
     hostname = "107.22.242.195"
 }
