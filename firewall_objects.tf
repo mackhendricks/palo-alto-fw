@@ -14,6 +14,6 @@ resource "panos_address_object" "ao1" {
 }
 
 resource "panos_address_object" "ao2" {
-    name = "ntp2"
+    name = "ntp3"
     value = "10.0.2.2"
 }
